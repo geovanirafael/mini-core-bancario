@@ -1,0 +1,19 @@
+# Dependencias e resultados de compilacao
+node_modules/
+dist/
+coverage/
+
+# Segredos: nunca no Git (RNF-13)
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editores e sistema
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
